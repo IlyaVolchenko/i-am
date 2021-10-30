@@ -179,6 +179,7 @@ body {
 
 .about__items-link:hover {
   background: linear-gradient(60deg, #00C4F0, #fdae1b);
+  background-color: #00C4F0;
   color: #000;
   border-radius: 30%;
 }
@@ -205,5 +206,225 @@ body {
 .about__items-link__4 {
   position: absolute;
   margin: -535px 0 0 480px;
+}
+
+.biography {
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  padding: 114px 0;
+}
+
+.biography__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.biography__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px 80px;
+}
+
+.biography__item {
+  background-color: #2A2A2A;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  border-radius: 29px;
+  width: 270px;
+  height: 270px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.biography__item:hover {
+  background-color: #00C4F0;
+}
+
+.biography__me {
+  background-image: url("../images/biography/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  height: 961px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 83px;
+}
+
+.biography__me-title {
+  font-size: 48px;
+  line-height: 54px;
+  margin-bottom: 25px;
+}
+
+.biography__me-text {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.biography__me-item {
+  cursor: pointer;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.biography__me-item:hover {
+  background: linear-gradient(60deg, #00C4F0, #fdae1b);
+  color: #000;
+}
+
+.biography__me-item1 {
+  width: 460px;
+  height: 780px;
+  padding: 12px 63px 0;
+  background-color: #2C2C2C;
+  border-radius: 14px;
+  position: absolute;
+}
+
+.biography__me-item2 {
+  position: relative;
+  width: 330px;
+  background-color: #2C2C2C;
+  height: 379px;
+  border-radius: 14px;
+  left: -40px;
+  top: -60px;
+}
+
+.biography__me-item3 {
+  position: relative;
+  background-color: #2C2C2C;
+  width: 310px;
+  height: 485px;
+  left: 340px;
+  top: 217px;
+  border-radius: 14px;
+}
+
+.biography__me-item4 {
+  position: relative;
+  background-color: #2C2C2C;
+  width: 307px;
+  height: 339px;
+  left: -670px;
+  top: 525px;
+  border-radius: 14px;
+}
+
+.biography__me-item2__img {
+  margin-top: 26px;
+  margin-left: 14px;
+  width: 302px;
+  height: 326px;
+  border-radius: 10px;
+}
+
+.biography__me-item3__img {
+  margin-top: 21px;
+  margin-left: 13px;
+  width: 282px;
+  height: 443px;
+  border-radius: 10px;
+}
+
+.biography__me-item4__img {
+  margin-top: 17px;
+  margin-left: 14px;
+  width: 279px;
+  height: 306px;
+  border-radius: 10px;
+}
+
+.portfolio {
+  padding-bottom: 150px;
+}
+
+.portfolio__title {
+  text-align: center;
+  padding: 100px 0 50px;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.portfolio__inner {
+  width: 970px;
+  height: 600px;
+  padding: 50px;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  -webkit-box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+          box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+  border-radius: 29px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.portfolio__img {
+  border-radius: 29px;
+}
+
+.portfolio__item {
+  height: 436px;
+  text-align: center;
+  margin: 82px 0 0 81px;
+}
+
+.portfolio__item-title {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 25px;
+}
+
+.portfolio__item-text {
+  width: 296px;
+  margin-bottom: 25px;
+}
+
+.portfolio__item-link {
+  display: inline-block;
+  color: #E2A100;
+  position: relative;
+}
+
+.portfolio__item-link::after {
+  content: "";
+  background-image: url("../images/arrows-link.png");
+  position: absolute;
+  width: 13px;
+  height: 8px;
+  top: 8px;
+  left: 45px;
+}
+
+.slider__prev-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  top: 680px;
+  left: 103px;
+}
+
+.slider__next-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  top: 12px;
 }
 /*# sourceMappingURL=style.css.map */

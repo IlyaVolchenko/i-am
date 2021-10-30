@@ -1,0 +1,43 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+
+.header {
+  padding: 26px 0 39px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  margin-right: 117px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__list-item+.menu__list-item {
+    margin-left: 145px;
+  }
+
+  &__link {
+    color: #E4E4E4;
+
+    &:hover {
+      border-bottom: 2px solid #E2A300;
+    }
+  }
+}
+
+
+@import 'media';
+
+
+// color: #E4E4E4;
+// font-weight: 300;
+// font-size: 18px;
+// line-height: 21px;

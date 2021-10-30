@@ -275,8 +275,6 @@ body {
 
 .biography__me-item {
   cursor: pointer;
-  -webkit-transition: all .7s;
-  transition: all .7s;
 }
 
 .biography__me-item:hover {
@@ -426,5 +424,42 @@ body {
   cursor: pointer;
   position: relative;
   top: 12px;
+}
+
+.footer {
+  padding: 50px 0;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer__menu-list {
+  margin-bottom: 18px;
+}
+
+.footer__menu-link {
+  color: #E4E4E4;
+}
+
+.footer__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 57px;
+}
+
+.footer__img {
+  margin-right: 32px;
+}
+
+.footer__text {
+  color: #E4E4E4;
 }
 /*# sourceMappingURL=style.css.map */

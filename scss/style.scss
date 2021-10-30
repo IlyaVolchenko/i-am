@@ -189,7 +189,6 @@
 
     &-item {
       cursor: pointer;
-      transition: all .7s;
 
       &:hover {
         background: linear-gradient(60deg, #00C4F0,
@@ -339,6 +338,39 @@
   top: 12px;
 }
 
+
+.footer {
+  padding: 50px 0;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+
+  &__inner {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__menu {
+    &-list {
+      margin-bottom: 18px;
+    }
+
+    &-link {
+      color: #E4E4E4;
+    }
+  }
+
+  &__images {
+    display: flex;
+    margin-bottom: 57px;
+  }
+
+  &__img{
+    margin-right: 32px;
+  }
+
+  &__text {
+    color: #E4E4E4;
+  }
+}
 
 
 @import 'media';
